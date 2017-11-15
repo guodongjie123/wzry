@@ -1,0 +1,191 @@
+@charset"utf-8";
+*{margin:0; padding:0;}
+input,img{ border:0; vertical-align: top;}
+ul{ list-style-type:none;}
+a{ text-decoration:none; color:#333;}/*a标签样式*/
+body{ font-size:12px; font-family:微软雅黑;  color:#333;} 
+.clear{ clear:both;}  /*清除浮动*/
+.center{width:1200px;margin:0 auto;}
+
+  				/*首页----index*/
+
+/*腾讯游戏*/
+.top1{height:40px;}
+/*齐聚长城*/
+.top2{position:relative;}
+.top2 .bg{width:100%;height:1070px;}
+.top2 .bg img{width:100%;height:100%;}
+
+/*导航*/
+header{width:100%;position:absolute;top:0;}
+header .top{background:rgba(0,0,0,.7);width:100%;height:84px;}
+header .top .left{position:absolute;left:204px;top:0;z-index:99;}
+header .top .right{float:right;}
+header .top .center ul{float:left;margin-left:204px;height:68px;}
+header .top .center ul li{float:left;text-align:center;width:110px;height:81px;}
+header .top .center ul li p{padding-top:16px;}
+header .top .center ul li p a{color:#ccc;font-size:20px;line-height:40px;}
+header .top .center ul li span a{color:#858792;font-size:12px;margin-top:10px;}
+header .top .right .l{float:left;width:44px;height:44px;border:1px solid #F3C259;border-radius:50%;margin-top:18px;}
+header .top .right .r{float:left;margin-left:10px;margin-top:12px;}
+header .top .right .r p{font-size:14px;}
+/*js效果*/
+header .bot{width:100%;height:212px;background:rgba(0,0,0,.6);display:none;position:absolute;top:84px;}
+header .bot ul{width:110px;float:left;margin-top:10px;}
+header .bot ul:first-child{margin-left:110px;margin-left:314px;}
+header .bot ul li{height:30px;line-height:30px;text-align:center;}
+header .bot ul a{color:#fff;}
+header .bot ul a:hover{text-decoration:underline;color:#F5C259;}
+header .bot li span{display:inline-block;width:19px;height:19px;background:url(../images/index.png) no-repeat -139px -7px;position:relative;top:4px;}
+header .bot li i{display:inline-block;width:19px;height:19px;background:url(../images/index.png) no-repeat -140px -38px;position:relative;top:4px;}
+/*登录*/
+body{width:100%;position:relative;}
+#log1{width:100%;height:100%;background:rgba(0,0,0,.5);position:absolute;left:0;top:0;z-index:100;display:none;}
+#log1 .center{width:530px;height:254px;border:2px solid #FFD984;position:absolute;left:50%;margin-left:-265px;top:300px;background:rgba(0,0,0,.8);}
+#log1 .center p{float:right;}
+#log1 .center h2{margin-top:100px;width:530px;height:36px;line-height:36px;font-size:24px;color:#FFD984;text-align:center;}
+#log1 .center div{text-align:center;margin-top:16px;}
+#log1 .center span{width:100px;height:80px;display:block;position:absolute;left:0;top:0;}
+#log1 .center span img{width:100px;height:80px;}
+/*进入专题*/
+.top2 .anniu{width:240px;height:50px;position:absolute;left:50%;margin-left:-120px;top:446px;}
+/*轮播图片*/
+.top2 .banner{width:1200px;height:342px;position:absolute;left:50%;margin-left:-600px;top:530px;}
+.top2 .banner .l{width:600px;height:342px;float:left;}
+#ul1{height:298px;}
+#ul1 li{display:none;}
+#ul2{height:44px;}
+#ul2 li{float:left;width:120px;height:44px;background:#221F28;line-height:44px;text-align:center;}
+#ul2 li a{color:#B2B2BA;}
+#ul2 li.active{background:#454249;}
+#ul2 li.active a{color:#E7C17A;}
+/*轮播新闻*/
+.top2 .banner .c{width:325px;height:342px;float:left;background:#232027;padding:0 17px;border-left:1px solid #000;}
+#ul3{height:49px;border-bottom:1px solid #000;}
+#ul3 li{width:52px;height:47px;line-height:49px;text-align:center;float:left;}
+#ul3 a{color:#b8b9c5;}
+#ul3 span{width:52px;float:right;text-align:center;line-height:40px;}
+#ul3 li.active{border-bottom:2px solid #F5C259;}
+#ul3 li.active a{color:#F5C259;}
+#ul4 li{display:none;}
+#ul4 li.on{display:block;}
+#ul4 li p{height:35px;color:#B2B2BA;line-height:35px;}
+#ul4 li p:first-child{background:#414046;}
+#ul4 li p:first-child a{color:#D0A851;font-size:18px;}
+#ul4 li p a{color:#B2B2BA;font-size:14px;width:270px;float:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#ul4 li p a:hover{text-decoration:underline;}
+#ul4 li p span{float:right;display:inline-block;}
+/*官方爆料站*/
+.top2 .banner .r{width:235px;height:342px;float:left;}
+.top2 .banner .r .li1{width:235px;height:128px;background:url(../images/index.png) no-repeat 0 -220px;}
+.top2 .banner .r .li2{width:235px;height:106px;background:url(../images/index.png) no-repeat 0 -350px;border:1px solid #25262B;border-top:0;}
+.top2 .banner .r .li3{width:235px;height:106px;background:url(../images/index.png) no-repeat 0 -462px;}
+.top2 .banner2{height:134px;width:1200px;position:absolute;bottom:30px;left:50%;margin-left:-600px;}
+.top2 .banner2 li{float:left;margin-right:12px;}
+
+/*攻略中心&英雄皮肤*/
+.banner3{overflow:hidden;}
+/*攻略中心*/
+.banner3 .left{width:872px;height:528px;float:left;}
+.banner3 .left .top,.banner3 .right .top,.banner4 .left .top,.banner4 .right .top{height:31px;line-height:31px;padding-bottom:16px;}
+.banner3 .left .top h3,.banner3 .right .top h3,.banner4 .left .top h3,.banner4 .right .top h3{float:left;font-size:24px;font-family:微软雅黑;font-weight:normal;}
+.banner3 .left .top h3 span{width:25px;height:25px;display:inline-block;background:url(../images/index.png) no-repeat 0 -102px;margin-left:5px;}
+.banner3 .left .top p,.banner3 .right .top p,.banner4 .right .top p{float:right;font-size:16px;color:#9A9997;}
+.banner3 .left .top p span,.banner3 .right .top p span,.banner4 .right .top p span{display:inline-block;width:20px;height:16px;background:url(../images/index.png) no-repeat -249px 0;position:relative;top:5px;}
+#ul7,#ul9,.ul11{line-height:22px;height:32px;background:#F5F5F5;margin-bottom:19px;}
+#ul7 li{float:left;width:289px;text-align:center;padding:5px 0;}
+#ul7 li a{display:inline-block;width:289px;border-left:1px solid #ccc;}
+#ul7 li.active,#ul9 li.active{border-bottom:3px solid #F2C359;height:19px;}
+#ul8 div{height:497px;width:872px;}
+#ul12{padding:10px 0;overflow:hidden;}
+#ul12 li,#ul14 li{float:left;padding:5px 10px;background:#ccc;margin-left:25px;border-radius:10px;}
+#ul12 li.active,#ul14 li.active{background:#F3C259;}
+#ul12 li.active a,#ul14 li.active a{color:#fff;}
+#ul13 dd,#ul15 dd,#ul16 dd{float:left;position:relative;margin:24px 11.2px 18px 0;overflow:hidden;}
+#ul13 dd span,#ul15 dd span,#ul16 dd span{position:absolute;top:106px;left:0;color:#fff;width:189px;overflow:hidden;padding-left:20px;}
+#ul13 dd span i,#ul15 dd span i,#ul16 dd span i{float:right;font-style:normal;margin-right:10px;}
+#ul13 dd img,#ul15 dd img,#ul16 dd img{width:209px;height:125px;}
+#ul13 dd p,#ul15 dd p,#ul16 dd p{width:209px;}
+#ul17{position:relative;}
+#ul17 dl{position:absolute;width:840px;height:338px;z-index:99;left:0;top:14;display:none;background:#fff;padding-top:10px;}
+#ul17 p{margin-left:10px;font-size:14px;width:80px;}
+#ul17 p span{display:inline-block;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:7px solid #F3C259;margin-left:2px;}
+#ul18{float:left;background:#ccc;width:70px;height:338px;}
+#ul18 li{width:70px;text-align:center;height:40px;line-height:40px;}
+#ul18 li.active{background:#F3C259;}
+#ul18 li.active a{color:#fff;}
+#ul19{width:770px;height:338px;float:right;}
+#ul19 li{width:770px;height:338px;}
+#ul19 li span{display:block;float:left;margin:12px;height:79px;}
+#ul19 li span i{display:block;width:65px;height:14px;font-style:normal;text-align:center;}
+#ul19 li span img{width:65px;height:65px;}
+/*英雄皮肤*/
+.banner3 .right{float:right;width:295px;height:528px;}
+.banner3 .right .top h3 span{display:inline-block;width:23px;height:25px;background:url(../images/index.png) no-repeat 0 -143px;position:relative;top:2px;}
+.banner3 .right .bot{height:497px;width:295px;}
+#ul5{line-height:22px;height:32px;background:#F5F5F5;margin-bottom:19px;}
+#ul5 li{float:left;width:97px;text-align:center;padding:5px 0;}
+#ul5 li a{display:inline-block;width:97px;border-left:1px solid #ccc;}
+#ul5 li.active{border-bottom:2px solid #F2C359;height:20px;}
+#ul6 li{display:none;width:295px;height:497px;}
+#ul6 .xc{height:224px;border:1px solid #ccc;}
+#ul6 .xc h3{margin-left:12px;font-size:18px;margin-top:10px;}
+#ul6 .xc p{margin-left:12px;margin-top:2px;}
+#ul6 dl{margin-top:16px;}
+#ul6 dl dd{float:left;margin-right:7px;}
+#ul6 li.on{display:block;}
+#ul6 li:last-child dd{display:inline-block;width:68px;height:173px;float:left;margin-right:7px;margin-bottom:12px;}
+#ul6 dd{position:relative;}
+#ul6 dd span{display:block;width:68px;height:173px;background:rgba(0,0,0,.8);position:absolute;top:0;left:0;text-align:center;color:#F2C359;font-size:14px;display:none;}
+#ul6 dd span i{font-style:normal;overflow: hidden;position: absolute;top: 0px;left: 26px;text-align: center; color: #f3c258;font-size: 14px; width: 34px;height: 100%;line-height: 16px;padding-left: 2px;writing-mode: vertical-lr;letter-spacing: 0.3em;word-break: break-all;}
+/*赛事中心*/
+.banner4{margin-top:26px;overflow:hidden;}
+.banner4 .left{width:872px;height:781px;float:left;}
+#ul9 li{float:left;width:144px;text-align:center;padding:5px 0;}
+#ul9 li a{display:inline-block;width:144px;border-left:1px solid #ccc;}
+#ul10 dd{width:872px;height:781px;}
+#ul10 dd .top{height:260px;margin-top:20px;}
+#ul10 dd .top .left{width:211px;height:260px;float:left;}
+#ul10 dd .top .right{width:630px;height:260px;float:right;}
+#ul10 dd .top .right h3{height:32px;width:630px;line-height:32px;}
+#ul10 dd .top .right p{width:450px;height:23px;word-break:break-all;overflow:hidden;text-overflow:ellipsis;line-height:23px;}
+#ul10 dd .top .right li{width:630px;height:23px;line-height:23px;margin:10px 0;}
+#ul10 dd .top .right li i{display:inline-block;float:left;font-style:normal;width:41px;height:23px;background:#ccc;text-align:center;border-radius:8px;margin-right:16px;}
+#ul10 dd .top .right li span{float:right;color:#ccc;}
+#ul10 dd .bot li{float:left;margin-right:11px;margin-top:15px;}
+#ul10 dd .bot li img{width:209px;height:126px;}
+#ul10 dd .bot li p{width:209px;line-height:24px;}
+.banner4 .right{width:295px;float:right;}
+.ul11 li{float:left;width:83px;line-height:29px;text-align:center;}
+.ul11 li:nth-child(3){width:43px;}
+.ul12{height:67px;width:295px;border-bottom:1px solid #ccc;}
+.ul12 li{float:left;width:79px;text-align:center;}
+.ul12 li:nth-child(1){line-height:67px;}
+.ul12 li:nth-child(3){width:43px;line-height:67px;color:#F3C259;}
+.ul12 li:nth-child(2) span img,.ul12 li:nth-child(4) span img{width:34px;height:25px;display:block;margin-left:20px;margin-top:10px;}
+
+/*腾讯娱乐*/
+.banner5{height:64px;margin-top:40px;width:100%;}
+.banner5 .center .tx{float:left;overflow:hidden;}
+.banner5 .center .tx li{float:left;margin-right:16px;}
+#ul11{height:210px;overflow-x:hidden;overflow-y:auto;}
+/*合作媒体*/
+.banner5 .center .mt{float:right;width:270px;height:36px;padding-top:6px;cursor:pointer;position:relative;}
+.banner5 .center .mt .top{width:260px;height:30px;line-height:30px;border:3px solid #ccc;margin:0 auto;outline:0;padding-left:8px;color:#ccc;font-weight:bold;background:#F7F7F7;}
+.banner5 .center .mt .bot{width:268px;height:200px;border:3px solid #ccc;border-top:0;list-style:none;color:#6A6561;display:none;position:absolute;left:0;top:42px;background:#F7F7F7;overflow:hidden;}
+.banner5 .center .mt .bot ul{overflow:hidden;float:left;width:268px;}
+.banner5 .center .mt .bot li{padding-left:8px;height:30px;line-height:30px;}
+.banner5 .center .mt .bot li a{color:#6A6561;}
+/*#bar{width:20px;height:40px;position:absolute;right:0;background:pink;}*/
+/*底部*/
+footer{margin-top:5px;height:220px;width:100%;background:url(../images/200.jpg) no-repeat center -120px;}
+footer .center{border-top:2px solid #D4D4D4;padding-top:18px;}
+footer .left{width:508px;float:left;}
+footer .left ul{width:508px;height:36px;}
+footer .left ul li{float:left;margin-right:12px;}
+footer .right{width:632px;float:right;}
+footer .right ul{padding-top:18px;overflow:hidden;}
+footer .right ul li{float:left;}
+footer .right ul li:nth-child(even){margin:0 5px;}
+footer .right .p1{margin:4px 0;}
+footer .right .p1 span{float:right;}
